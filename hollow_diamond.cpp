@@ -1,3 +1,4 @@
+// Hollow Diamond Pattern By Kushal Pathak
 #include <iostream>
 #include <conio.h>
 using namespace std;
@@ -7,6 +8,7 @@ void display(int);
 int main()
 {
     int size;
+    cout << "Hollow Diamond Pattern By Kushal Pathak\n";
     cout << "Enter size: ";
     cin >> size;
     if (size % 2 == 0)
@@ -39,9 +41,6 @@ void display(int size)
         }
 
         cout << endl;
-
-        // cout << endl
-        //      << "mathi";
     }
     for (int i = size / 2; i >= 0; i--)
     {
@@ -62,8 +61,5 @@ void display(int size)
         }
 
         cout << endl;
-
-        // cout << endl
-        //      << "tala";
     }
 }
