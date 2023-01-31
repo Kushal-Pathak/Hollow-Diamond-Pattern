@@ -3,7 +3,7 @@
 #include <conio.h>
 using namespace std;
 
-void display(int);
+void hollow_diamond_pattern(int);
 
 int main()
 {
@@ -13,12 +13,12 @@ int main()
     cin >> size;
     if (size % 2 == 0)
         size++;
-    display(size);
+    hollow_diamond_pattern(size);
     getch();
     return 0;
 }
 
-void display(int size)
+void hollow_diamond_pattern(int size)
 {
     system("cls");
     int side, mid;
